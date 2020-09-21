@@ -8,4 +8,4 @@ RUN git clone https://github.com/bryanjonas/K8S-Test.git
 RUN cd K8S-Test && \
     nvcc -o pi Pi.cu
 
-CMD ~/K8S-Test/pi
+CMD /K8S-Test/pi
