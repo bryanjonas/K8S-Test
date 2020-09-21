@@ -8,7 +8,7 @@
 #include <time.h>
 #include <curand_kernel.h>
 
-#define TRIALS_PER_THREAD 16384
+#define TRIALS_PER_THREAD 163840
 #define BLOCKS 256
 #define THREADS 256
 #define PI 3.1415926535  // known value of pi
